@@ -1,0 +1,19 @@
+
+public class Yaksu {
+		
+
+	public static void main(String[] args) {
+		
+		final int A = 8;
+		
+		for(int n = 1; n <= A; n++) {
+			
+			if (A % n == 0) {
+				System.out.print(n + ", ");
+			} // if
+			
+		} //for
+		
+	}// main
+	
+}//end class
